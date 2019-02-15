@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0FE28D2031EBD10064BFB0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE28C2031EBD10064BFB0 /* ThirdViewController.swift */; };
+		CC15E3D2203DC93600B1B827 /* RetosNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC15E3D1203DC93600B1B827 /* RetosNow.swift */; };
 		CC25079A1FBF8C5600E59C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2507991FBF8C5600E59C35 /* AppDelegate.swift */; };
 		CC25079C1FBF8C5600E59C35 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC25079B1FBF8C5600E59C35 /* FirstViewController.swift */; };
 		CC25079E1FBF8C5600E59C35 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC25079D1FBF8C5600E59C35 /* SecondViewController.swift */; };
 		CC2507A11FBF8C5600E59C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC25079F1FBF8C5600E59C35 /* Main.storyboard */; };
 		CC2507A31FBF8C5600E59C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2507A21FBF8C5600E59C35 /* Assets.xcassets */; };
 		CC2507A61FBF8C5600E59C35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2507A41FBF8C5600E59C35 /* LaunchScreen.storyboard */; };
+		CC3B3D6120420A9E0059BE5B /* NewChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3B3D6020420A9E0059BE5B /* NewChallengeViewController.swift */; };
+		CC50FE7A1FD4697800C40FEA /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC50FE791FD4697800C40FEA /* SubjectViewController.swift */; };
+		CC9B91BB1FFE168400114405 /* MateriasAndCalisNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B91BA1FFE168400114405 /* MateriasAndCalisNow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC0FE28C2031EBD10064BFB0 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		CC15E3D1203DC93600B1B827 /* RetosNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetosNow.swift; sourceTree = "<group>"; };
 		CC2507961FBF8C5600E59C35 /* Mis Calis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mis Calis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2507991FBF8C5600E59C35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC25079B1FBF8C5600E59C35 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		CC2507A21FBF8C5600E59C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC2507A51FBF8C5600E59C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC2507A71FBF8C5600E59C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3B3D6020420A9E0059BE5B /* NewChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChallengeViewController.swift; sourceTree = "<group>"; };
+		CC50FE791FD4697800C40FEA /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
+		CC9B91BA1FFE168400114405 /* MateriasAndCalisNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriasAndCalisNow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			children = (
 				CC2507991FBF8C5600E59C35 /* AppDelegate.swift */,
 				CC25079B1FBF8C5600E59C35 /* FirstViewController.swift */,
+				CC50FE791FD4697800C40FEA /* SubjectViewController.swift */,
 				CC25079D1FBF8C5600E59C35 /* SecondViewController.swift */,
+				CC3B3D6020420A9E0059BE5B /* NewChallengeViewController.swift */,
+				CC9B91BA1FFE168400114405 /* MateriasAndCalisNow.swift */,
+				CC15E3D1203DC93600B1B827 /* RetosNow.swift */,
 				CC25079F1FBF8C5600E59C35 /* Main.storyboard */,
+				CC0FE28C2031EBD10064BFB0 /* ThirdViewController.swift */,
 				CC2507A21FBF8C5600E59C35 /* Assets.xcassets */,
 				CC2507A41FBF8C5600E59C35 /* LaunchScreen.storyboard */,
 				CC2507A71FBF8C5600E59C35 /* Info.plist */,
@@ -140,8 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC25079E1FBF8C5600E59C35 /* SecondViewController.swift in Sources */,
+				CC50FE7A1FD4697800C40FEA /* SubjectViewController.swift in Sources */,
 				CC25079A1FBF8C5600E59C35 /* AppDelegate.swift in Sources */,
 				CC25079C1FBF8C5600E59C35 /* FirstViewController.swift in Sources */,
+				CC15E3D2203DC93600B1B827 /* RetosNow.swift in Sources */,
+				CC0FE28D2031EBD10064BFB0 /* ThirdViewController.swift in Sources */,
+				CC3B3D6120420A9E0059BE5B /* NewChallengeViewController.swift in Sources */,
+				CC9B91BB1FFE168400114405 /* MateriasAndCalisNow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,11 +301,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9VPHSJB5D3;
 				INFOPLIST_FILE = "Mis Calis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fredoapps.Mis-Calis";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,11 +317,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9VPHSJB5D3;
 				INFOPLIST_FILE = "Mis Calis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fredoapps.Mis-Calis";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
